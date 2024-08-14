@@ -17,18 +17,18 @@
 
 .navigation {
     width: 100%;
-    height: 67px;
+    height: 50px;
     background-color: lightgray;
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
+    /* position: fixed; */
 }
 
 .fa-align-justify {
     color: black;
     margin-top: 10px;
-    margin-left: 20px;
 }
 
 .logo {
@@ -88,11 +88,16 @@
     color: var(--accent-color) !important;
 }
 
-.hadding {
-    height: 300px;
+.im-logo img {
+    height: auto;
     width: 100%;
-    background-image: url("https://pixahive.com/wp-content/uploads/2020/08/Melbourne-Cricket-Ground-19968-pixahive.jpg");
+    background-image: url("assets/images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg");
 }
+
+
+/* .egg {
+    background-color: #183b56;
+} */
 
 .item {
     display: flex;
@@ -156,7 +161,13 @@
     display: flex;
 }
 
-.photo h2 {
+.photo h2,
+.picca h2,
+.pic h2,
+.prime h2,
+.seco h2,
+.secon h2,
+secone h2 {
     margin-top: 40px;
     margin-left: 20px;
 }
@@ -165,7 +176,9 @@
     text-decoration: none;
 }
 
-.pic {
+.pic,
+.pica,
+.picca {
     display: flex;
 }
 
@@ -178,14 +191,16 @@
     margin-left: 20px;
 }
 
-.pic h2 {
+
+/* .pic h2 {
     margin-top: 40px;
     margin-left: 20px;
-}
+} */
 
-.pica {
+
+/* .pica {
     display: flex;
-}
+} */
 
 .pica img {
     height: 100px;
@@ -196,14 +211,17 @@
     margin-left: 20px;
 }
 
+
+/* 
 .pica h2 {
     margin-top: 40px;
     margin-left: 20px;
-}
+} */
 
-.picca {
+
+/* .picca {
     display: flex;
-}
+} */
 
 .picca img {
     height: 100px;
@@ -214,10 +232,11 @@
     margin-left: 20px;
 }
 
-.picca h2 {
+
+/* .picca h2 {
     margin-top: 40px;
     margin-left: 20px;
-}
+} */
 
 .liney {
     width: 100%;
@@ -250,11 +269,15 @@
     margin-top: 10px;
 }
 
+
+/* 
 .prime h2 {
     margin-top: 20px;
-}
+} */
 
-.prime p {
+.prime p,
+.seco p,
+.secon p {
     margin-top: 20px;
     font-size: 20px;
 }
@@ -270,7 +293,9 @@
     height: 500px;
 }
 
-.second img {
+.second img,
+.seconde img,
+.seconded img {
     height: 400px;
     margin: 60px;
     box-shadow: 4px 4px 8px #000000;
@@ -282,14 +307,16 @@
     margin-top: 120px;
 }
 
-.seco h2 {
-    margin-top: 20px;
-}
 
-.seco p {
+/* .seco h2 {
+    margin-top: 20px;
+} */
+
+
+/* .seco p {
     margin-top: 20px;
     font-size: 20px;
-}
+} */
 
 .seco a {
     text-decoration: none;
@@ -302,11 +329,12 @@
     height: 500px;
 }
 
-.seconde img {
+
+/* .seconde img {
     height: 400px;
     margin: 60px;
     box-shadow: 4px 4px 8px #000000;
-}
+} */
 
 .secon {
     flex-direction: column;
@@ -314,14 +342,16 @@
     margin-top: 120px;
 }
 
-.secon h2 {
-    margin-top: 20px;
-}
 
-.secon p {
+/* .secon h2 {
+    margin-top: 20px;
+} */
+
+
+/* .secon p {
     margin-top: 20px;
     font-size: 20px;
-}
+} */
 
 .secon a {
     text-decoration: none;
@@ -334,11 +364,12 @@
     height: 500px;
 }
 
-.seconded img {
+
+/* .seconded img {
     height: 400px;
     margin: 60px;
     box-shadow: 4px 4px 8px #000000;
-}
+} */
 
 .secone {
     flex-direction: column;
@@ -346,9 +377,10 @@
     margin-top: 120px;
 }
 
-.secone h2 {
+
+/* .secone h2 {
     margin-top: 20px;
-}
+} */
 
 .secone p {
     margin-top: 20px;
@@ -530,9 +562,12 @@
     height: 60px;
     box-shadow: 4px 4px 8px #000000;
     margin-left: 200px;
+    border-radius: 2px 3px 4px 34px;
+    -webkit-border-radius: 2px 3px 4px 34px;
+    -moz-border-radius: 2px 3px 4px 34px;
+    -ms-border-radius: 2px 3px 4px 34px;
+    -o-border-radius: 2px 3px 4px 34px;
 }
-
-.comm p {}
 
 .image {
     display: flex;
