@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>creat account</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.creat{
+			margin-left: 33%;
+			width: 30vw;
+			height: 90vh;
+			margin-top: 30px;
+			border-radius: 20px;
+			box-shadow:rgba(0, 0, 0, 0.35)0px 5px 10px ;
+
+		}
+		 .a{
+			height: 40px;
+			width: 350px;
+			margin: 10px;
+		    margin-left: 50px;
+		}
+		.b{
+			margin-left: 48px;
+			font-size: 14px;
+		}
+		h2{
+         text-align: center;
+         margin: 20px;
+         padding-top: 30px;
+		}
+		.tik-button{
+	     margin-left: 48px;
+		}
+		.check{
+			font-size: 15px;
+		}
+		a{
+			text-decoration: none;
+			margin: 5px;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+		p{
+			margin-left: 48px;
+			font-size: 15px;
+			margin-top: 20px;
+			width: 400px;
+		}
+		.gap{
+			height: 1px;
+			width: 100%;
+			color: white;
+			background-color: white;
+			margin-top: 20px;
+
+		}
+		.button{
+		width: 350px;
+		background-color: royalblue;
+		text-align: center;
+		margin-left: 48px;
+		height: 40px;
+		margin-top: 20px;
+		text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="creat">
+		<form>
+			<h2>
+				Creat account
+			</h2>
+			<p>Creat an account to view and manag your project</p>
+			<div>
+			<label class="b"  for="comment">full name</label>
+			<input class="a" type="text" id="username" name="username">
+
+			</div>
+			<div >
+				<label class="b"  for="comment">Email</label>
+				<input class="a" type="text" name="Email">
+			</div>
+			<div >
+				<label class="b" for="comment">Password</label>
+				<input class="a" type="text" name="password">
+
+			</div>
+			<div>
+				<label class="b" for="comment"> Confirm Password</label>
+				<input class="a" type="text" name="password">
+				
+			</div>
+			<div>
+				<input class="tik-button" type="checkbox" id="subscribe" name="subscribe" value="yes">
+				<label class="check" for="term">Enroll in<a href="#">Expo.Developer Service</a></label>
+			</div>
+		</form>
+		<div>
+			<button class="button" type="button">Creat your account</button>
+
+		</div>
+		<div class="gap"></div>
+		<div>
+			<p>By creatin an account you agree to our<a href="#">Term of service</a>and<a href="#">privacy policy.</a></p>
+		</div>
+		</div>
+
+</body>
+</html>
