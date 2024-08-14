@@ -1,0 +1,569 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ :root {
+    --primay-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+}
+
+.content {
+    width: 100%;
+}
+
+.navigation {
+    width: 100%;
+    height: 67px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.fa-align-justify {
+    color: black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.logo {
+    color: lightgrayblue;
+    margin-left: 10px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    margin-left: 280px;
+}
+
+.navigation ul li {
+    padding: 10px 30px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hover-link {
+    color: var(--primay-text-color);
+    transition: 0.2s ease-out;
+}
+
+.hover-link:hover {
+    color: var(--accent-color);
+}
+
+.primary-botton {
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 500;
+    color: white !important;
+    padding: 9px 20px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.primary-botton:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-botton {
+    border: 0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--primay-text-color) !important;
+    padding: 9px 15px;
+    transition: 0.2s ease-out;
+}
+
+.secondary-botton:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+
+.hadding {
+    height: 300px;
+    width: 100%;
+    background-image: url("https://pixahive.com/wp-content/uploads/2020/08/Melbourne-Cricket-Ground-19968-pixahive.jpg");
+}
+
+.item {
+    display: flex;
+    height: 500px;
+}
+
+.item img {
+    height: 300px;
+    margin: 60px;
+    box-shadow: 4px 4px 8px #000000;
+}
+
+.flex {
+    flex-direction: column;
+    width: 370px;
+    margin-top: 120px;
+}
+
+.flex h2 {
+    margin-top: 20px;
+}
+
+.flex p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.flex a {
+    text-decoration: none;
+    color: black;
+    border-radius: 2px;
+}
+
+.hov:hover {
+    color: orangered;
+}
+
+.lettest {
+    height: 690px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35)0px 5px 10px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.lettest h1 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.photo img {
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.photo {
+    display: flex;
+}
+
+.photo h2 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.justy {
+    text-decoration: none;
+}
+
+.pic {
+    display: flex;
+}
+
+.pic img {
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.pic h2 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.pica {
+    display: flex;
+}
+
+.pica img {
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.pica h2 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.picca {
+    display: flex;
+}
+
+.picca img {
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.picca h2 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.liney {
+    width: 100%;
+    height: 0.2px;
+    background-color: gray;
+    margin-top: 16px;
+}
+
+.sec {
+    display: flex;
+    height: 500px;
+}
+
+.sec img {
+    height: 400px;
+    margin: 60px;
+    box-shadow: 4px 4px 8px #000000;
+}
+
+.lineye {
+    width: 100%;
+    height: 0.2px;
+    background-color: gray;
+    margin-top: 16px;
+}
+
+.prime {
+    flex-direction: column;
+    width: 360px;
+    margin-top: 10px;
+}
+
+.prime h2 {
+    margin-top: 20px;
+}
+
+.prime p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.prime a {
+    text-decoration: none;
+    color: black;
+    border-radius: 2px;
+}
+
+.second {
+    display: flex;
+    height: 500px;
+}
+
+.second img {
+    height: 400px;
+    margin: 60px;
+    box-shadow: 4px 4px 8px #000000;
+}
+
+.seco {
+    flex-direction: column;
+    width: 390px;
+    margin-top: 120px;
+}
+
+.seco h2 {
+    margin-top: 20px;
+}
+
+.seco p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.seco a {
+    text-decoration: none;
+    color: black;
+    border-radius: 2px;
+}
+
+.seconde {
+    display: flex;
+    height: 500px;
+}
+
+.seconde img {
+    height: 400px;
+    margin: 60px;
+    box-shadow: 4px 4px 8px #000000;
+}
+
+.secon {
+    flex-direction: column;
+    width: 390px;
+    margin-top: 120px;
+}
+
+.secon h2 {
+    margin-top: 20px;
+}
+
+.secon p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.secon a {
+    text-decoration: none;
+    color: black;
+    border-radius: 2px;
+}
+
+.seconded {
+    display: flex;
+    height: 500px;
+}
+
+.seconded img {
+    height: 400px;
+    margin: 60px;
+    box-shadow: 4px 4px 8px #000000;
+}
+
+.secone {
+    flex-direction: column;
+    width: 390px;
+    margin-top: 120px;
+}
+
+.secone h2 {
+    margin-top: 20px;
+}
+
+.secone p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.secone a {
+    text-decoration: none;
+    color: black;
+    border-radius: 2px;
+}
+
+.foote {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+
+.lineyee {
+    width: 100%;
+    height: 0.2px;
+    background-color: gray;
+    margin-top: 16px;
+}
+
+.foote ul {
+    display: flex;
+    list-style: none;
+    margin-left: 60px;
+}
+
+.foote li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.foote li {
+    margin-top: 20px;
+}
+
+.foote h3 {
+    color: white;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.columnn {
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+.columnnn {
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+.columnnnn {
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+.subfooter {
+    background-color: black;
+    height: 40px;
+}
+
+.gip {
+    background-color: gray;
+    width: 100%;
+    height: 0.5px;
+}
+
+.subfooter h3 {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.search input {
+    height: 40px;
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 4px 4px 8px #000000;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.fa-user {
+    margin-right: px;
+    margin-top: 5px;
+    font-size: 25px;
+    color: black;
+}
+
+.secondo {
+    display: flex;
+    height: 500px;
+}
+
+.secondo img {
+    height: 400px;
+    margin: 60px;
+    box-shadow: 4px 4px 8px #000000;
+    width: 800px;
+}
+
+.secono {
+    flex-direction: column;
+    width: 390px;
+    margin-top: 120px;
+}
+
+.secono h2 {
+    margin-top: 20px;
+}
+
+.secono p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.secono a {
+    text-decoration: none;
+    color: black;
+    border-radius: 2px;
+}
+
+.conte {
+    display: flex;
+}
+
+.bum {
+    width: 500px;
+}
+
+.bum h1 {
+    margin-left: 60px;
+    margin-top: 120px;
+}
+
+.video video {
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.contain {
+    height: 800px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.image img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.commente h3 {
+    margin-top: 90px;
+    margin-left: 90px;
+}
+
+.comm {
+    width: 600px;
+    height: 60px;
+    box-shadow: 4px 4px 8px #000000;
+    margin-left: 200px;
+}
+
+.comm p {}
+
+.image {
+    display: flex;
+}
+
+.image h3 {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.write-comment input {
+    height: 40px;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.advtisment {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 70px;
+}
+
+.advtisment h1 {
+    width: 600px;
+    margin: 30px;
+    margin-top: 200px;
+}
+
+.advtisment img {
+    width: 700px;
+    height: 400px;
+}

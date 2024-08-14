@@ -1,550 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>blog</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-    <style>
-        *{
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-        }
-        :root{
-         
-            --primay-text-color:#183b56;
-            --secondary-text-color:#577592;
-            --accent-color:#2294ed;
-            --accent-color-dark:#1d69a3;
 
-        }
-        .content{
-            width: 100%;
-        }
-        .navigation{
-            width: 100%;
-            height: 67px;
-            background-color:lightgray;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            text-decoration: none;
-        }
-         .fa-align-justify{
-            color: black;
-            margin-top: 10px;
-            margin-left: 20px;
-         }
-        .logo{
-            color:lightgrayblue;
-            margin-left: 10px;
-        }
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> cricket blog</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
 
-        .navigation ul {
-            display: flex;
-            list-style: none;
-            margin-left: 280px;
-        }
-        .navigation ul li{
-            padding: 10px 30px;
-        }
-         .navigation ul li a{
-            text-decoration: none;
-            color: black;
-
-         }
-         .hover-link{
-            color: var(--primay-text-color);
-            transition: 0.2s ease-out;
-         }
-         .hover-link:hover{
-            color: var(--accent-color);
-        }
-        .primary-botton{
-            background-color: var(--accent-color);
-            border-radius:6px ;
-            font-weight: 500;
-            color: white !important;
-            padding: 9px 20px;
-            box-shadow: 0 0 2px var(--secondary-text-color);
-            transition: 0.2s ease-out;
-        }
-        .primary-botton:hover{
-            background-color: var(--accent-color-dark);
-        }
-        .secondary-botton{
-            border: 0.5px solid var(--secondary-text-color);
-            border-radius: 6px;
-            font-weight: 500;
-            color: var(--primay-text-color) !important;
-            padding: 9px 15px;
-            transition: 0.2s ease-out;
-        }
-        .secondary-botton:hover{
-            border-color: var(--accent-color);
-            color: var(--accent-color) !important;
-        }
-       .hadding{
-        height: 300px;
-        width: 100%;
-        background-image: url("https://pixahive.com/wp-content/uploads/2020/08/Melbourne-Cricket-Ground-19968-pixahive.jpg");
-       }
-       .item{
-        display: flex;
-        height: 500px;
-       }
-       .item img{
-        height: 400px;
-        margin: 60px;
-        box-shadow: 4px 4px 8px #000000;
-       }
-       .flex{
-        flex-direction: column;
-        width: 370px;
-        margin-top: 120px;
-       }
-       .flex h2{
-            margin-top: 20px;
-       }
-        .flex p{
-            margin-top: 20px;
-            font-size: 20px;
-
-       }
-       .flex a{
-        text-decoration: none;
-        color: black;
-        border-radius: 2px;
-       }
-       .hov:hover{
-        color: orangered;
-       }
-       .lettest{
-        height: 690px;
-        width:400px;
-        box-shadow:rgba(0, 0, 0, 0.35)0px 5px 10px ;
-        margin-top: 70px;
-        margin-left: 40px;
-       
-       }
-        .lettest h1{
-            margin-top: 20px;
-            margin-left: 10px;
-            
-        }
-        .photo img{
-            height: 100px;
-            width: 100px;
-            margin: 0px;
-            padding: 0px;
-            margin-top: 40px;
-            margin-left: 20px;
-           
-        }
-        .photo{
-            display: flex;
-        }
-        .photo h2{
-            margin-top: 40px;
-            margin-left: 20px;
-        }
-        .justy{
-            text-decoration: none;
-        }
-        .pic{
-           display: flex;
-        }
-        .pic img{
-            height: 100px;
-            width: 100px;
-            margin: 0px;
-            padding: 0px;
-            margin-top: 20px;
-            margin-left: 20px;
-           
-        }
-        .pic h2{
-             margin-top: 40px;
-            margin-left: 20px;
-        }
-        .pica{
-           display: flex;
-        }
-        .pica img{
-            height: 100px;
-            width: 100px;
-            margin: 0px;
-            padding: 0px;
-            margin-top: 20px;
-            margin-left: 20px;
-           
-        }
-        .pica h2{
-             margin-top: 40px;
-            margin-left: 20px;
-
-        }
-           .picca{
-           display: flex;
-        }
-        .picca img{
-            height: 100px;
-            width: 100px;
-            margin: 0px;
-            padding: 0px;
-            margin-top: 20px;
-            margin-left: 20px;
-           
-        }
-        .picca h2{
-             margin-top: 40px;
-            margin-left: 20px;
-           
-        }
-        .liney{
-            width: 100%;
-            height: 0.2px;
-            background-color:gray ;
-            margin-top: 16px;
-        }
-        .sec{
-        display: flex;
-        height: 500px;
-
-       }
-       .sec img{
-        height: 400px;
-        margin: 60px;
-        box-shadow: 4px 4px 8px #000000;
-       }
-        .lineye{
-            width: 100%;
-            height: 0.2px;
-            background-color:gray ;
-            margin-top: 16px;
-        }
-       .prime{
-        flex-direction: column;
-        width: 360px;
-        margin-top: 10px;
-        
-       }
-       .prime h2{
-            margin-top: 20px;
-            
-       }
-        .prime p{
-            margin-top: 20px;
-            font-size: 20px;
-
-       }
-       .prime a{
-        text-decoration: none;
-        color: black;
-        border-radius: 2px;
-    }
-    .second{
-        display: flex;
-        height: 500px;
-
-       }
-       .second img{
-        height: 400px;
-        margin: 60px;
-        box-shadow: 4px 4px 8px #000000;
-       }
-       .seco{
-        flex-direction: column;
-        width: 390px;
-        margin-top: 120px;
-        
-       }
-       .seco h2{
-            margin-top: 20px;
-          
-       }
-        .seco p{
-            margin-top: 20px;
-            font-size: 20px;
-            
-
-       }
-       .seco a{
-        text-decoration: none;
-        color: black;
-        border-radius: 2px;
-    }
-    .seconde{
-        display: flex;
-        height: 500px;
-
-       }
-       .seconde img{
-        height: 400px;
-        margin: 60px;
-        box-shadow: 4px 4px 8px #000000;
-       }
-       .secon{
-        flex-direction: column;
-        width: 390px;
-        margin-top: 120px;
-        
-       }
-       .secon h2{
-            margin-top: 20px;
-           
-       }
-        .secon p{
-            margin-top: 20px;
-            font-size: 20px;
-          
-
-       }
-       .secon a{
-        text-decoration: none;
-        color: black;
-        border-radius: 2px;
-    }
-     .seconded{
-        display: flex;
-        height: 500px;
-
-       }
-       .seconded img{
-        height: 400px;
-        margin: 60px;
-        box-shadow: 4px 4px 8px #000000;
-       }
-       .secone{
-        flex-direction: column;
-        width: 390px;
-        margin-top: 120px;
-        
-       }
-       .secone h2{
-            margin-top: 20px;
-           
-       }
-        .secone p{
-            margin-top: 20px;
-            font-size: 20px;
-            
-
-       }
-       .secone a{
-        text-decoration: none;
-        color: black;
-        border-radius: 2px;
-    }
-    .foote{
-        height: 70px;
-        width: 100%;
-        background-color: black;
-
-    }
-     .lineyee{
-            width: 100%;
-            height: 0.2px;
-            background-color:gray ;
-            margin-top: 16px;
-        }
-    .foote ul{
-        display: flex;
-        list-style: none;
-        margin-left: 60px;
-    }
-    .foote li a{
-        text-decoration: none;
-        color: white;
-        margin-left: 10px;
-    }
-    .foote li{
-        margin-top: 20px;
-    }
-    .foote h3{
-         color: white;
-         margin-left: 500px;
-         margin-top: 20px;
-    }
-    .columnn{
-        width: 2px;
-        height:20px;
-        background-color: white;
-        margin-top: 18px;
-        margin-left: 5px;
-    }
-      .columnnn{
-        width: 2px;
-        height:20px;
-        background-color: white;
-        margin-top: 18px;
-        margin-left: 5px;
-    }
-      .columnnnn{
-        width: 2px;
-        height:20px;
-        background-color: white;
-        margin-top: 18px;
-        margin-left: 5px;
-    }
-    .subfooter{
-        background-color: black;
-        height: 40px;
-    }
-    .gip{
-        background-color: gray;
-        width: 100%;
-        height: 0.5px;
-
-    }
-    .subfooter h3{
-        text-align: center;
-        color: white;
-        font-size: 17px;
-        font-family: sans-serif;
-    }
-    .search input{
-         height: 40px;
-         width:380px;
-        margin-top: 10px;
-        margin-left: 10px;
-         box-shadow: 4px 4px 8px #000000;
-         font-size: 17px;
-         border-radius: 10px;
-
-
-    }
-    .fa-user{
-        margin-right: px;
-        margin-top: 5px;
-        font-size: 25px;
-        color: black;
-    }
-      .secondo{
-        display: flex;
-        height: 500px;
-
-       }
-       .secondo img{
-        height: 400px;
-        margin: 60px;
-        box-shadow: 4px 4px 8px #000000;
-        width: 800px;
-       }
-       .secono{
-        flex-direction: column;
-        width: 390px;
-        margin-top: 120px;
-        
-       }
-       .secono h2{
-            margin-top: 20px;
-       }
-        .secono p{
-            margin-top: 20px;
-            font-size: 20px;
-
-       }
-       .secono a{
-        text-decoration: none;
-        color: black;
-        border-radius: 2px;
-    }
-    .conte{
-        display: flex;
-    }
-    .bum {
-       width: 500px;
-    }
-      .bum h1{
-        margin-left: 60px;
-        margin-top: 120px;
-      }
-      .video video{
-        margin-top: 40px;
-        margin-left: 70px;
-      }
-      .contain{
-        height: 800px;
-        width: 100%;
-        background-color:lightgray;
-
-      }
-      .image img{
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        margin-top: 60px;
-        margin-left: 100px;
-
-      }
-      .commente h3{
-        margin-top: 90px;
-        margin-left: 90px;
-      }
-       .comm{
-        width: 600px;
-        height: 60px;
-         box-shadow: 4px 4px 8px #000000;
-         margin-left: 200px;
-
-       }
-      .comm p{
-        
-      }
-      .image{
-        display: flex;
-      }
-      .image h3{
-        margin-top: 70px;
-        margin-left: 20px;
-    }
-    .write-comment input{
-          height: 40px;
-          width: 900px;
-          margin-top: 50px;
-          margin-left: 200px;
-
-    }
-    .advtisment{
-        width: 100%;
-        height: 500px;
-        display: flex;
-        margin-top: 70px;
-    }
-    .advtisment h1{
-        width: 600px;
-        margin: 30px;
-        margin-top: 200px;
-    }
-    .advtisment img{
-        width: 700px;
-        height: 400px;
-
-    }
-
-    </style>
-        
-    <body>
+<body>
     <nav>
-        
-       <div class="navigation">
-        <a href="#"><i class="fa-solid fa-align-justify"></i></a>
-        <h1 class="logo">Cricket blog</h1>
-        <ul>
-            <li><a href="#"class="hover-link">Home</a></li>
-            <li><a href="#"class="hover-link"> cricket Blog</a></li>
-            <li><a href="#"class="hover-link">about us</a></li>
-            <li><a href="#"class="hover-link">contect</a></li>
-            <li><a href="#"class="hover-link">product</a></li>
-            <li><a href="http://127.0.0.1:5500/login.html"target="_blank"class="hover-link secondary-botton">sign in</a></li>
-            <li><a href="http://127.0.0.1:5500/creat%20accout.html"target="_blank"class="hover-link primary-botton">sign up</a></li>
-             <a href="http://127.0.0.1:5500/dashboard.html" target="_blank"><i class="fa-solid fa-user"></i><a>
+
+        <div class="navigation">
+            <a href="#"><i class="fa-solid fa-align-justify"></i></a>
+            <h1 class="logo">Cricket blog</h1>
+            <ul>
+                <li><a href="#" class="hover-link">Home</a></li>
+                <li><a href="#" class="hover-link"> cricket Blog</a></li>
+                <li><a href="#" class="hover-link">about us</a></li>
+                <li><a href="#" class="hover-link">contect</a></li>
+                <li><a href="#" class="hover-link">product</a></li>
+                <li><a href="http://127.0.0.1:5500/login.html" target="_blank" class="hover-link secondary-botton">sign in</a></li>
+                <li><a href="http://127.0.0.1:5500/creat%20accout.html" target="_blank" class="hover-link primary-botton">sign up</a></li>
+                <a href="http://127.0.0.1:5500/index.html" target="_blank"><i class="fa-solid fa-user"></i><a>
         </ul>
        </div>
     </nav>
@@ -554,95 +36,115 @@
         </div>
     <div class="info">
         <div class="item">
-            <a href="#"><img src="https://kricketwicket.com/wp-content/uploads/2024/03/kolkata-knight-riders1-800x800.jpg"></a>
-            <div class="flex">
-            <a class="hov" href="#">cricket</a>
-            <a href="#" class="justy"><h2 class="hov">The Knights gamble!</h2></a>
-            <p>In the electrifying extravaganza of the Indian Premier League (IPL), fans fervently discuss not just the teams, but also the players and, at times, the captaincy. However, rarely does the…</p>
-            </div>
-           
-            <div class="lettest">
-                 <div class="search">
-                    <input type="search"  name="Search" placeholder="Search...">
+            <a href="#"><img src="assets/images/kolkata-knight-riders1-768x431.jpg"></a>
+                <div class="flex">
+                    <a class="hov" href="#">cricket</a>
+                    <a href="#" class="justy">
+                        <h2 class="hov">The Knights gamble!</h2>
+                    </a>
+                    <p>In the electrifying extravaganza of the Indian Premier League (IPL), fans fervently discuss not just the teams, but also the players and, at times, the captaincy. However, rarely does the…</p>
                 </div>
-            <h1>LETEST POST</h1>
-            <div class="photo">
-            <a href="#"><img src="https://kricketwicket.com/wp-content/uploads/2024/03/kolkata-knight-riders1-800x800.jpg"></a>
-            <a href="#" class="justy"><h2 class="hov">The Knights gamble!</h2><a>
+
+                <div class="lettest">
+                    <div class="search">
+                        <input type="search" name="Search" placeholder="Search...">
+                    </div>
+                    <h1>LETEST POST</h1>
+                    <div class="photo">
+                        <a href="#"><img src="assets/images/kolkata-knight-riders1-768x431.jpg"></a>
+                        <a href="#" class="justy">
+                            <h2 class="hov">The Knights gamble!</h2>
+                            <a>
+                    </div>
+                    <div class="liney"></div>
+                    <div class="pic">
+                        <a href="#"><img src="assets/images/image_2024_03_11T12_58_41_479Z-150x150 (1).png"></a>
+                        <a href="#" class="justy">
+                            <h2 class="hov">India’s spectacular triumph shakes</h2>
+                        </a>
+
+                    </div>
+                    <div class="lineye"></div>
+                    <div class="pica">
+                        <a href="#"><img src="assets/images/IND-vs-AUS-2023-150x150 (1) (1).png"></a>
+                        <a href="#" class="justy">
+                            <h2 class="hov">IND Vs AUS 2023: Is SKY Ready To Be The Next</h2>
+                        </a>
+                    </div>
+                    <div class="lineyee"></div>
+                    <div class="picca">
+                        <a href="#"><img src="assets/images/image 2024 1.png"></a>
+                        <a href="#" class="justy">
+                            <h2 class="hov">The Unseen Support: How Mentorship Shaped</h2>
+                        </a>
+                    </div>
+                </div>
         </div>
-        <div class="liney"></div>
-            <div class="pic">
-                <a href="#"><img src="https://kricketwicket.com/wp-content/uploads/2024/03/image_2024_03_11T12_58_41_479Z.png"></a>
-                <a href="#" class="justy"><h2 class="hov">India’s spectacular triumph shakes</h2></a>
-        
-            </div>
-             <div class="lineye"></div>
-            <div class="pica">
-                <a href="#"><img src="https://kricketwicket.com/wp-content/uploads/2023/11/IND-vs-AUS-2023.png"></a>
-                <a href="#" class="justy"><h2 class="hov">IND Vs AUS 2023: Is SKY Ready To Be The Next</h2></a>
-            </div>
-             <div class="lineyee"></div>
-            <div class="picca">
-                <a href="#"><img src="https://kricketwicket.com/wp-content/uploads/2024/03/image_2024_03_08T10_44_50_804Z.png"></a>
-                <a href="#" class="justy"><h2 class="hov">The Unseen Support: How Mentorship Shaped</h2></a>
+
+        </div>
+        <div class="sec">
+            <a href="#"><img src="assets/images/image 2024 1.png"></a>
+            <div class="prime">
+                <a class="hov" href="#">cricket</a>
+                <a href="#" class="justy">
+                    <h2 class="hov">India’s spectacular triumph shakes foundations of Bazball.</h2>
+                </a>
+                <p>After much anticipation and excitement, the riveting series between India and England has finally concluded, leaving cricket fans around the world buzzing with discussion and analysis. With India emerging triumphant…</p>
             </div>
         </div>
-        </div>
-        
-    </div>
-    <div class="sec">
-        <a href="#"><img src="https://kricketwicket.com/wp-content/uploads/2024/03/image_2024_03_11T12_58_41_479Z-800x800.png"></a>
-        <div class="prime">
-            <a class="hov" href="#">cricket</a>
-            <a href="#" class="justy"><h2 class="hov">India’s spectacular triumph shakes foundations of Bazball.</h2></a>
-            <p>After much anticipation and excitement, the riveting series between India and England has finally concluded, leaving cricket fans around the world buzzing with discussion and analysis. With India emerging triumphant…</p>
-            </div>
-    </div>
-    <div class="second">
-         <a href="#"><img src="https://kricketwicket.com/wp-content/uploads/2024/03/image_2024_03_11T12_58_41_479Z-800x800.png"></a>
-        <div class="seco">
-            <a class="hov" href="#">cricket</a>
-            <a href="#" class="justy"><h2 class="hov">The Unseen Support: How Mentorship Shaped Yashasvi Jaiswal’s Career</h2></a>
-            <p>Yashasvi Jaiswal's ascent in international cricket has captured the attention of both fans and critics alike. With his remarkable performance in a short period, he has become a household name.…</p>
-            </div>
-    </div>
-     <div class="seconde">
-        <a href="#"><img src="https://kricketwicket.com/wp-content/uploads/2023/11/IND-Vs-AUS-800x800.png"></a>
-        <div class="secon">
-            <a class="hov" href="#">cricket</a>
-            <a href="#" class="justy"><h2 class="hov">CWC 2023 Final: IND Vs AUS; Heartbreak For Home Team; Talking Points, Big-Match Calls And Much More!!?</h2></a>
-            <p>CWC 2023 Final; IND Vs AUS Review: And so the Midsummer Night’s dream turns into a never-ending nightmare of despair and anguish. A day that started off with a sea…</p>
+        <div class="second">
+            <a href="#"><img src="assets/images/IND-vs-AUS-2023-150x150 (1) (1).png"></a>
+            <div class="seco">
+                <a class="hov" href="#">cricket</a>
+                <a href="#" class="justy">
+                    <h2 class="hov">The Unseen Support: How Mentorship Shaped Yashasvi Jaiswal’s Career</h2>
+                </a>
+                <p>Yashasvi Jaiswal's ascent in international cricket has captured the attention of both fans and critics alike. With his remarkable performance in a short period, he has become a household name.…</p>
             </div>
         </div>
-         <div class="seconded">
-        <a href="#"><img src="https://kricketwicket.com/wp-content/uploads/2023/11/SA-Vs-AUS-800x800.png"></a>
-        <div class="secone">
-            <a class="hov" href="#">cricket</a>
-            <a href="#" class="justy"><h2 class="hov">CWC 2023 Final: IND Vs AUS; Heartbreak For Home Team; Talking Points, Big-Match Calls And Much More!!?</h2></a>
-            <p>CWC 2023 Final; IND Vs AUS Review: And so the Midsummer Night’s dream turns into a never-ending nightmare of despair and anguish. A day that started off with a sea…</p>
+        <div class="seconde">
+            <a href="#"><img src="assets/images/image 2024 1.png"></a>
+            <div class="secon">
+                <a class="hov" href="#">cricket</a>
+                <a href="#" class="justy">
+                    <h2 class="hov">CWC 2023 Final: IND Vs AUS; Heartbreak For Home Team; Talking Points, Big-Match Calls And Much More!!?</h2>
+                </a>
+                <p>CWC 2023 Final; IND Vs AUS Review: And so the Midsummer Night’s dream turns into a never-ending nightmare of despair and anguish. A day that started off with a sea…</p>
+            </div>
+        </div>
+        <div class="seconded">
+            <a href="#"><img src="assets/images/image_2024_03_11T12_58_41_479Z-150x150 (1).png"></a>
+            <div class="secone">
+                <a class="hov" href="#">cricket</a>
+                <a href="#" class="justy">
+                    <h2 class="hov">CWC 2023 Final: IND Vs AUS; Heartbreak For Home Team; Talking Points, Big-Match Calls And Much More!!?</h2>
+                </a>
+                <p>CWC 2023 Final; IND Vs AUS Review: And so the Midsummer Night’s dream turns into a never-ending nightmare of despair and anguish. A day that started off with a sea…</p>
             </div>
         </div>
         <div class="secondo">
-        <a href="#"><img src="https://images.icc-cricket.com/image/upload/t_ratio21_9-size60/prd/qrqpri2pv0xufnjulyzk"></a>
-        <div class="secono">
-            <a class="hov" href="#">cricket</a>
-            <a href="#" class="justy"><h2 class="hov">Lasting legacy: Looking back at Virat Kohli's best T20 World Cup innings!!?</h2></a>
-            <p>Finishing a stellar T20I career with a Player of the Match performance - that's just quintessential Virat Kohli.</p>
+            <a href="#"><img src="assets/images/images (1).jpeg"></a>
+            <div class="secono">
+                <a class="hov" href="#">cricket</a>
+                <a href="#" class="justy">
+                    <h2 class="hov">Lasting legacy: Looking back at Virat Kohli's best T20 World Cup innings!!?</h2>
+                </a>
+                <p>Finishing a stellar T20I career with a Player of the Match performance - that's just quintessential Virat Kohli.</p>
             </div>
-            </div>
-            <div class="conte">
+        </div>
+        <div class="conte">
             <div class="bum">
                 <h1 class="hov">Watch: 'Perfect outswinger' - Jasprit Bumrah cleans Up Reeza Hendricks with dream delivery</h1>
             </div>
             <div class="video">
-                <video height="400" width="700" src="C:\Users\lenovo\OneDrive\Desktop\The_story_so_far_–_Best_Moments___T20WC_2024(240p).mp4" controls></video>
+                <video height="400" width="700" src="assets/images/viddeo/The_story_so_far_–_Best_Moments___T20WC_2024(240p).mp4" controls></video>
             </div>
         </div>
         <div class="advtisment">
             <!-- Image Map Generated by https://www.fla-shop.com/image-map/ -->
             <h1>thise are very populer cricketer you want to every cricketers just click on any cricketer</h1>
-               <img src="C:\Users\lenovo\OneDrive\Desktop\photo\Screenshot_2024-08-12-21-56-11-79_40deb401b9ffe8e1df2f1cc5ba480b12.jpg" usemap="#image-map">
-<map name="image-map">
+            <img src="assets/images/cricketers.jpg" usemap="#image-map">
+            <map name="image-map">
     <area target="" alt="" title="" href="https://en.wikipedia.org/wiki/KL_Rahul" target="_blank" coords="117,99,209,539" shape="rect"></area>
     <area target="" alt="" title="" href="https://en.wikipedia.org/wiki/Jasprit_Bumrah" target="_blank" coords="217,111,302,537" shape="rect"></area>
     <area target="" alt="" title="" href="https://en.wikipedia.org/wiki/Virat_Kohli" target="_blank" coords="307,120,379,523" shape="rect"></area>
@@ -654,68 +156,66 @@
 </map>
         </div>
         <div class="contain">
-        <div class="commente">
-            <h3>comment(3)</h3>  
-        </div>
-        <div class="user-commant">
-           <div class="image">
-              <img src="C:\Users\lenovo\OneDrive\Desktop\charlesdeluvio-kVg2DQTAK7c-unsplash.jpg">
-              <h3>Mukesh kumar</h3>
-               
-           </div>
-            <div class="comm">
-               <p>hey i aam mukesh kumar the founder of cricket blog  so thank you for visitting here and whtting article</p>
+            <div class="commente">
+                <h3>comment(3)</h3>
+            </div>
+            <div class="user-commant">
+                <div class="image">
+                    <img src="assets/images/mukesh.jpg">
+                    <h3>Mukesh kumar</h3>
+
+                </div>
+                <div class="comm">
+                    <p>hey i aam mukesh kumar the founder of cricket blog so thank you for visitting here and whtting article</p>
+                </div>
+            </div>
+            <div class="user-commant">
+                <div class="image">
+                    <img src="assets/images/mukesh.jpg">
+                    <h3>Mukesh kumar</h3>
+
+                </div>
+                <div class="comm">
+                    <p>hey i aam mukesh kumar the founder of cricket blog so thank you for visitting here and whtting article</p>
+                </div>
+            </div>
+            <div class="user-commant">
+                <div class="image">
+                    <img src="assets/images/mukesh.jpg">
+                    <h3>Mukesh kumar</h3>
+
+                </div>
+                <div class="comm">
+                    <p>hey i aam mukesh kumar the founder of cricket blog so thank you for visitting here and whtting article</p>
+                </div>
+            </div>
+            <div class="write-comment">
+                <input type="text" name="comment" placeholder="comment....">
             </div>
         </div>
-         <div class="user-commant">
-           <div class="image">
-              <img src="C:\Users\lenovo\OneDrive\Desktop\charlesdeluvio-kVg2DQTAK7c-unsplash.jpg">
-              <h3>Mukesh kumar</h3>
-               
-           </div>
-            <div class="comm">
-               <p>hey i aam mukesh kumar the founder of cricket blog  so thank you for visitting here and whtting article</p>
-            </div>
-        </div>
-         <div class="user-commant">
-           <div class="image">
-              <img src="C:\Users\lenovo\OneDrive\Desktop\charlesdeluvio-kVg2DQTAK7c-unsplash.jpg">
-              <h3>Mukesh kumar</h3>
-               
-           </div>
-            <div class="comm">
-               <p>hey i aam mukesh kumar the founder of cricket blog  so thank you for visitting here and whtting article</p>
-            </div>
-        </div>
-        <div class="write-comment">
-            <input type="text" name="comment" placeholder="comment....">
-        </div>
-    </div>
 
         <footer>
-        <div class="foote">
-            <ul>
-                <li>
-                    <a class="hov" href="#">About us</a>
-                </li>
-                <div class="columnn"></div>
-                <li><a class="hov" href="#">Cricket blogs</a></li>
-                  <div class="columnnn"></div>
-                <li><a class="hov" href="#">Contect us</a></li>
-                  <div class="columnnnn"></div>
-                <li><a class="hov" href="#">Sitemap</a></li>
-                <h3>Kricket Wicket © 2021. All Rights Reserved</h3>
-            </ul>
+            <div class="foote">
+                <ul>
+                    <li>
+                        <a class="hov" href="#">About us</a>
+                    </li>
+                    <div class="columnn"></div>
+                    <li><a class="hov" href="#">Cricket blogs</a></li>
+                    <div class="columnnn"></div>
+                    <li><a class="hov" href="#">Contect us</a></li>
+                    <div class="columnnnn"></div>
+                    <li><a class="hov" href="#">Sitemap</a></li>
+                    <h3>Kricket Wicket © 2021. All Rights Reserved</h3>
+                </ul>
+            </div>
+        </footer>
+        <div class="gip"></div>
+        <div class="subfooter">
+            <h3 class="h3">Design & Developed by Mukesh kumar</h3>
         </div>
-    </footer>
-    <div class="gip"></div>
-    <div class="subfooter">
-          <h3 class="h3">Design & Developed by Mukesh kumar</h3>
-    </div>
-    </body>
+
+
+
+</body>
 </html
-
-
-
-
-
